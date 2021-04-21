@@ -1,17 +1,24 @@
 <html>
 
+<head>
+  <title>My Todos</title>
+  <meta name="viewport" content="width=device-width">
+</head>
+
 <body>
-  <script src="./index.js"></script>
 
   <div class="todo-container">
-    <h2 class="todo-title">My Todos</h2>
-    <div class="todo-list">
+    <h1 class="todo-title">My Todos</h1>
+    <div class="todo-list" id="todoList">
 
     </div>
     <div class="todo-form">
-
+      <input type="text" id="todoInput" placeholder="Todo eingeben">
+      <button id="submit">Hinzufügen</button>
     </div>
   </div>
+
+  <script src="./index.js"></script>
 </body>
 
 </html>
